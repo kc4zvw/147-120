@@ -1,0 +1,71 @@
+/* example:  */
+
+// https://stackoverflow.com/questions/20179154/how-can-i-align-3-divs-side-by-side
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: 1fr;
+	background-color: #2196F3;
+	padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.container {
+	display: grid;
+	column-gap: 5px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: 1fr;
+	grid-column-gap: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	width: 99%;
+}  
+
+.container > div {
+	background-color: green;
+	justify-content: space-around;
+}
+
+.first, .third {
+	color: yellow;
+	padding: 15px 15px 15px 15px;
+	font-size: 20px;
+	text-align: left;
+}
+
+.second {
+	color: white;
+	padding: 15px 15px 15px 15px;
+	font-size: 20px;
+	text-align: left;
+}
+
+/* ============================================================================= */
+
+.container2 {
+	display: flex;
+	justify-content: space-around;
+}
+.container2 > div {
+	margin: 8px;
+	background-color: blue;
+}
+.first2, .third2 {
+	color: white;
+	width: 30%;
+	padding: 15px 15px 15px 15px;
+}
+.second2 {
+	color: yellow;
+	width: 40%;
+	padding: 15px 15px 15px 15px;
+}
+
+/* End of file */

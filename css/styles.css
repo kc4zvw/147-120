@@ -20,6 +20,8 @@ p.title {
 h1 {
   font-weight: bold;
   color: darkblue;
+  /* color:green; */
+  text-align:center;
 }
 
 h2 {
@@ -64,7 +66,7 @@ h2 {
             padding: 0 1em 0 1em;
             display: table; }
 
-.www_footer { text-align: left; color: darkgreen; padding: 0 0 0 0 }
+.www_footer { text-align: left; color: darkgreen; padding: 3 3 3 3 }
 
 div.block0 { padding: 5px 30px 5px 40px;
              width: 1050px; margin: left; border: 0px solid; }
@@ -77,6 +79,8 @@ span.node1 { text-align: left; }
 p.c1 { border: 0px solid ; width: 90% ; color: #000000 }
 p.c2 { margin-left: 1em; color: #0C00FFF0 ; font-size: 14pt } 
 p.c3 { margin-left: 1em; color: #0C00FFF0 ; font-size: 16pt }
+
+li.lower { type: "i" }
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -111,4 +115,63 @@ hr.short {
 	width: 70%;
 }
 
-/* End Of File */
+div.leftbox {
+	padding: 5px 5px 5px 5px;
+	float:left; 
+	background:Cyan;
+	width:30%;
+	height:680px;
+}
+
+div.middlebox{
+	padding: 5px 5px 5px 5px;
+	float:left; 
+	background:Green;
+	color: white;
+	width:30%;
+	height:680px;
+}
+
+div.rightbox{
+	padding: 5px 5px 5px 5px;
+	float: left;
+	background:lightblue;
+	width:33%;
+	height:680px;
+}
+
+div.leftbox2 {
+	padding: 10px 10px 10px 10px;
+	float:left; 
+	background:LightBlue;
+	width:35%;
+	height:480px;
+}
+
+div.middlebox2{
+	padding: 10px 10px 10px 10px;
+	float:left; 
+	background:Green;
+	color: white;
+	text-color: white;
+	width:30%;
+	height:480px;
+}
+
+div.rightbox2{
+	padding: 10px 10px 10px 10px;
+	float:left;
+	background:lightblue;
+	width:30%;
+	height:480px;
+}
+
+div.footer{
+	padding: 5px 5px 5px 5px;
+	float: bottom;
+	background:lightblue;
+	width:90%;
+	height:180px;
+}
+
+/* End of File */
