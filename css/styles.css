@@ -66,21 +66,28 @@ h2 {
             padding: 0 1em 0 1em;
             display: table; }
 
-.www_footer { text-align: left; color: darkgreen; padding: 3 3 3 3 }
+.www_footer { text-align: left; color: darkgreen; padding: 3px 3px 3px 3px }
 
 div.block0 { padding: 5px 30px 5px 40px;
-             width: 1050px; margin: left; border: 0px solid; }
+             width: 1050px; margin: 0.3em; border: 0px solid; }
 
 div.block1 { padding-top: 4px; padding-right: 30px; padding-bottom: 4px; padding-left: 80px;
-             width: 1050px; margin: left; border: 0px solid; }
+             width: 1050px; margin: 0.3em; border: 0px solid; }
 
 span.node1 { text-align: left; }
+
+ol.circle {list-style-type: circle;}
+ol.square {list-style-type: square;}
+ol.upper  {list-style-type: upper-alpha;}
+ol.lower  {list-style-type: lower-alpha;}
+ol.rupper {list-style-type: upper-roman;}
+ol.rlower {list-style-type: lower-roman;}
 
 p.c1 { border: 0px solid ; width: 90% ; color: #000000 }
 p.c2 { margin-left: 1em; color: #0C00FFF0 ; font-size: 14pt } 
 p.c3 { margin-left: 1em; color: #0C00FFF0 ; font-size: 16pt }
 
-li.lower { type: "i" }
+/* li.lower { type: "i" } */
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -107,12 +114,15 @@ li.lower { type: "i" }
 /* Add a color to the active/current link */
 .topnav a.active {
 	background-color: #4CAF50;
-	color: white;
+	color: #FFFFFF;
+}
+
+hr.shorter {
+	width: 70%;
 }
 
 hr.short {
-	align: "left";
-	width: 70%;
+	width: 80%;
 }
 
 div.leftbox {
@@ -127,7 +137,7 @@ div.middlebox{
 	padding: 5px 5px 5px 5px;
 	float:left; 
 	background:Green;
-	color: white;
+	color: #FFFFFF;
 	width:30%;
 	height:680px;
 }
@@ -145,7 +155,6 @@ div.leftbox2 {
 	float:left; 
 	background:LightBlue;
 	width:35%;
-	height:480px;
 }
 
 div.middlebox2{
@@ -153,25 +162,22 @@ div.middlebox2{
 	float:left; 
 	background:Green;
 	color: white;
-	text-color: white;
 	width:30%;
-	height:480px;
 }
 
 div.rightbox2{
 	padding: 10px 10px 10px 10px;
-	float:left;
-	background:lightblue;
-	width:30%;
-	height:480px;
+	float: left;
+	background: lightblue;
+	width: 30%;
 }
 
 div.footer{
-	padding: 5px 5px 5px 5px;
-	float: bottom;
-	background:lightblue;
+	padding: 2px 2px 2px 2px;
+	margin-bottom: auto;
+	background: lightblue;
 	width:90%;
-	height:180px;
+	/* height:180px; */
 }
 
 /* End of File */
